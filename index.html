@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinning Wheel Project</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1>Spinning Wheel Game</h1>
+        <div class="wheel-container">
+            <div class="wheel" id="wheel">
+                <div class="segment" style="transform: rotate(0deg); background-color: #FF6384;">Prize 1</div>
+                <div class="segment" style="transform: rotate(45deg); background-color: #36A2EB;">Prize 2</div>
+                <div class="segment" style="transform: rotate(90deg); background-color: #FFCE56;">Prize 3</div>
+                <div class="segment" style="transform: rotate(135deg); background-color: #4BC0C0;">Prize 4</div>
+                <div class="segment" style="transform: rotate(180deg); background-color: #9966FF;">Prize 5</div>
+                <div class="segment" style="transform: rotate(225deg); background-color: #FF9F40;">Prize 6</div>
+                <div class="segment" style="transform: rotate(270deg); background-color: #C9CBCF;">Prize 7</div>
+                <div class="segment" style="transform: rotate(315deg); background-color: #C9A86F;">Prize 8</div>
+            </div>
+            <button class="btn btn-primary mt-4" id="spin">Spin the Wheel</button>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+  </html>
